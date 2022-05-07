@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:background="@drawable/containerbtnstyle">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarlabcontr"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="match_parent"
+            app:title="Labor">
+        </androidx.appcompat.widget.Toolbar>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+
+
+        android:id="@+id/recyclelaborcontr"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        tools:context=".CustomerDashboardActvity.ShowLaborActivity">
+
+    </androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>

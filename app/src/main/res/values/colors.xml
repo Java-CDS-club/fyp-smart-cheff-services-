@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="whitelayer">#C1C0C0</color>
+    <color name="yello">#B0B033</color>
+
+
+    <color name="colorBlue">#28A2CF</color>
+    <color name="colorBlueT">#6428a2cf</color>
+    <color name="colorPurple">#A130FF</color>
+    <color name="colorPurpleT">#64a130ff</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="green">#98F82A</color>
+    <color name="colorwhite">#FFFFFF</color>
+
+
+    <!-- Forward compatibility for Material-style theme colors -->
+    <eat-comment />
+
+    <color name="holo_primary_dark">#ff222222</color>
+    <color name="holo_primary">#ff222222</color>
+    <color name="holo_control_activated">#ff222322</color>
+    <color name="holo_control_normal">#39cccccc</color>
+    <color name="holo_button_pressed">#59f0f0f0</color>
+    <color name="holo_button_normal">#bd292f34</color>
+
+    <color name="holo_light_primary_dark">#ff222222</color>
+    <color name="holo_light_primary">#ffe6e6e6</color>
+    <color name="holo_light_control_activated">#67D0DE</color>
+    <color name="holo_light_control_normal">#dacccccc</color>
+    <color name="holo_light_button_pressed">#66666666</color>
+    <color name="holo_light_button_normal">#b3cccccc</color>
+
+    <!-- Group buttons -->
+    <eat-comment />
+
+    <color name="group_button_dialog_pressed_holo_dark">#46c5c1ff</color>
+    <color name="group_button_dialog_focused_holo_dark">#2699cc00</color>
+
+    <color name="group_button_dialog_pressed_holo_light">#ffffffff</color>
+    <color name="group_button_dialog_focused_holo_light">#4699cc00</color>
+
+
+</resources>

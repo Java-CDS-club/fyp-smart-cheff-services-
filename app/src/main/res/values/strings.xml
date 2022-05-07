@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">OnlineSmartCheffServices</string>
+    <string-array name="usertype">
+        <item>Cheff</item>
+        <item>Customer</item>
+    </string-array>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+
+    <string-array name="distype">
+        <item>recipie</item>
+        <item>item_picture</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_on_location_view">Map</string>
+</resources>

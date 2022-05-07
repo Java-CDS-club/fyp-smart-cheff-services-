@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+  >
+
+    <group android:checkableBehavior="single">
+
+    <item
+
+        android:icon="@drawable/profileicon"
+        android:id="@+id/update"
+        android:title="Update"/>
+        <item
+
+            android:icon="@drawable/profileicon"
+            android:id="@+id/chat"
+            android:title="Chat"/>
+    <item
+        android:icon="@drawable/notifications"
+        android:id="@+id/notification"
+        android:title="Notifcation"/>
+    <item
+android:icon="@drawable/dashboardicon"
+        android:id="@+id/dashboard"
+        android:title="Dashboard"/>
+
+    </group>
+
+
+    <item android:title="Communication">
+        <menu>
+
+            <item
+                android:icon="@drawable/helpicon"
+                android:id="@+id/help"
+                android:title="Help"/>
+            <item
+                android:icon="@drawable/exit"
+                android:id="@+id/exit"
+                android:title="Logout"/>
+
+        </menu>
+
+
+    </item>
+
+
+</menu>

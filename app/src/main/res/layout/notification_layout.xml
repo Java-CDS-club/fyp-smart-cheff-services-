@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+
+
+        <LinearLayout
+
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_weight="4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+
+                        android:id="@+id/picwhowanttohire"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/loading" />
+
+                    <LinearLayout
+                        android:layout_toLeftOf="@+id/notificationsetrupees"
+                        android:id="@+id/lin"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/picwhowanttohire"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:id="@+id/nameofreqperson"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="UserName are requiesting"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="14dp"
+                            android:textColor="@color/colorAccent"
+                            />
+                        <TextView
+                            android:id="@+id/notificationlocation"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#100E0E"
+                            android:textSize="12dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="Attock"/>
+                        <TextView
+                            android:id="@+id/yoursalery"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#100E0E"
+                            android:textSize="12dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="Your salery"/>
+
+                        <TextView
+                            android:id="@+id/days"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#100E0E"
+                            android:textSize="12dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="Days"/>
+
+
+                        <TextView
+                            android:id="@+id/logskill"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#100E0E"
+                            android:textSize="12dp"
+
+                            android:layout_marginLeft="10dp"
+                            android:text="Days"/>
+
+
+                        <TextView
+                            android:id="@+id/date"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#100E0E"
+                            android:scrollbars="horizontal"
+                            android:textSize="12dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="Date"/>
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@id/notificationsetrupees"
+                        android:contentDescription="TODO" />
+
+                    <TextView
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentTop="true"
+                        android:paddingEnd="5dp"
+                        android:layout_marginEnd="10dp"
+                        android:textColor="#100E0E"
+                        android:id="@+id/notificationsetrupees"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="price"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </LinearLayout>
+            <Switch
+                android:id="@+id/acceptswtich"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:layout_width="90dp"
+                android:padding="10dp"
+                android:layout_height="90dp"
+ />
+        </LinearLayout>
+
+</RelativeLayout>

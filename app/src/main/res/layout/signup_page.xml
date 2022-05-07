@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:background="@drawable/background"
+    android:padding="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:padding="10dp"
+        tools:context=".Management.LoginInPage">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:id="@+id/LogInbtn"
+
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registration"
+                android:gravity="end"
+                android:textColor="@color/colorBlue"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/simchooseimg"
+                android:layout_width="190dp"
+                android:layout_height="120dp"
+                android:src="@drawable/camera2"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/simnamedriver"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:hint=" Your Name"
+                android:layout_marginTop="35dp"
+                android:paddingLeft="15dp"
+                android:inputType="text"
+                android:textColorHint="@android:color/black"
+                android:elevation="5dp"
+                android:background="@drawable/btn"
+                />
+            <EditText
+                android:id="@+id/simAddress"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:hint=" Email "
+                android:layout_marginTop="10dp"
+                android:paddingLeft="15dp"
+                android:inputType="textEmailAddress"
+                android:textColorHint="@android:color/black"
+                android:elevation="5dp"
+                android:background="@drawable/btn"
+                />
+            <EditText
+                android:id="@+id/simpasswordriver"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:hint=" Password "
+                android:layout_marginTop="10dp"
+                android:paddingLeft="15dp"
+                android:inputType="textPassword"
+                android:textColorHint="@android:color/black"
+                android:elevation="5dp"
+                android:background="@drawable/btn"
+                />
+            <EditText
+                android:id="@+id/simcontact"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:hint=" Phone "
+                android:layout_marginTop="10dp"
+                android:paddingLeft="15dp"
+                android:inputType="number"
+                android:textColorHint="@android:color/black"
+                android:elevation="5dp"
+                android:background="@drawable/btn"
+                />
+
+            <EditText
+                android:id="@+id/simcnic"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:hint=" Cnic "
+                android:layout_marginTop="10dp"
+                android:paddingLeft="15dp"
+                android:inputType="number"
+                android:textColorHint="@android:color/black"
+                android:elevation="5dp"
+                android:background="@drawable/btn"
+                />
+
+            <EditText
+                android:id="@+id/location"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:hint=" Select Location "
+                android:layout_marginTop="10dp"
+                android:paddingLeft="15dp"
+                android:inputType="number"
+                android:textColorHint="@android:color/black"
+                android:elevation="5dp"
+                android:background="@drawable/btn"
+                />
+
+
+
+            <Spinner
+                android:id="@+id/usertype"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:entries="@array/usertype"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="15dp"
+                android:inputType="number"
+                android:textColorHint="@android:color/black"
+                android:elevation="5dp"
+                android:background="@drawable/btn"
+                />
+
+            <EditText
+                android:visibility="gone"
+                android:id="@+id/hosname"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:hint=" Hospital Name "
+                android:layout_marginTop="10dp"
+                android:paddingLeft="15dp"
+                android:inputType="text"
+                android:textColorHint="@android:color/black"
+                android:elevation="5dp"
+                android:background="@drawable/btn"
+                />
+            <EditText
+                android:visibility="gone"
+                android:id="@+id/hosid"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:hint=" Nurse ID "
+                android:layout_marginTop="10dp"
+                android:paddingLeft="15dp"
+                android:inputType="number"
+                android:textColorHint="@android:color/black"
+                android:elevation="5dp"
+                android:background="@drawable/btn"
+                />
+
+            <ProgressBar
+                android:id="@+id/simprogressbar"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                />
+
+            <Button
+                android:id="@+id/simbtn"
+                android:layout_width="280dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/bt_uisquare"
+                android:elevation="5dp"
+                android:text="Join Us"
+                android:textAllCaps="false"
+                android:textColor="#F6F1F1" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="By Pressing 'Join Us' You agree\n     to our trems and conditions"
+                android:textColor="#F6F1F1"
+                android:layout_marginTop="25dp"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

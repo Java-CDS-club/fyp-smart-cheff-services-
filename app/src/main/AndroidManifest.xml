@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.onlinesmartcheffservices">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET " />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/chefficon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/chefficon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ForgotPassword"></activity>
+        <activity android:name=".Admin.RequestTabLayout" />
+        <activity android:name=".Cheff.ViewPicture" />
+        <activity android:name=".Customer.RecipieView" />
+        <activity android:name=".Cheff.AddDishes" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapPackage.OnLocationViewActivity"
+            android:label="@string/title_activity_on_location_view" />
+        <activity android:name=".Management.Signup" />
+        <activity android:name=".Cheff.CheffDashboard" />
+        <activity android:name=".UpdateProfile" />
+        <activity android:name=".Admin.ViewApproveAdmin" />
+        <activity android:name=".Admin.ViewAccountForApproveByAdmin" />
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".SetLocation" />
+        <activity android:name=".Customer.ShowItems" />
+        <activity android:name=".Admin.AdminDashboard" />
+        <activity android:name=".Admin.ShowNotificationtoAdmin" />
+        <activity android:name=".Admin.ViewAccountAndTheirRequests" />
+        <activity android:name=".Customer.DrawaerActivity" />
+        <activity android:name=".MapPackage.PostMapActivityLocation" />
+        <activity android:name=".Customer.ShowCheff" />
+        <activity android:name=".Customer.ShowNotitifcationResponse" />
+        <activity android:name=".Customer.ShowCheffForChat" />
+        <activity android:name=".ChatFiles.ChatActivity" />
+        <activity android:name=".ChatFiles.ChatActivityForCheff" />
+        <activity android:name=".MapPackage.MapsActivityViewLocation" />
+        <activity android:name=".Cheff.ShowItemsToSheff" />
+        <activity android:name=".Cheff.ShowNotification" />
+        <activity android:name=".Cheff.ShowCustomerForChat" />
+        <activity android:name=".HireActivity.HireActivity" />
+        <activity android:name=".Management.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

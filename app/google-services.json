@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "626424024142",
+    "firebase_url": "https://onlinesmartcheff.firebaseio.com",
+    "project_id": "onlinesmartcheff",
+    "storage_bucket": "onlinesmartcheff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626424024142:android:3330dbee4f96525f4b871f",
+        "android_client_info": {
+          "package_name": "com.example.onlinesmartcheffservices"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626424024142-fmvf981jk3pnm31k9enen5evm2v37crj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbVpwZIFYtREREdwQ0S0HPZRQfetpjHSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626424024142-fmvf981jk3pnm31k9enen5evm2v37crj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

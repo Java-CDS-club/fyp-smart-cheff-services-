@@ -1,0 +1,207 @@
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_weight="4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+
+                    <ImageView
+
+                        android:background="@drawable/loading"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/viewimg"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:scaleType="fitXY"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        />
+
+                    <RelativeLayout
+                        android:layout_toLeftOf="@+id/viewruppes"
+                        android:id="@+id/lin"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/viewimg"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:layout_alignParentTop="true"
+                            android:scrollbars="horizontal"
+                            android:id="@+id/viewusername"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="UserName"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="14dp"
+                            android:textColor="@color/colorAccent"
+                            />
+                        <TextView
+                            android:layout_below="@+id/viewusername"
+                            android:id="@+id/viewemail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="12dp"
+                            android:scrollbars="horizontal"
+                            android:layout_marginLeft="10dp"
+                            android:text="anus@gmail.com"/>
+
+                        <TextView
+                            android:layout_below="@id/viewemail"
+                            android:id="@+id/viewmobile"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="12dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="Phone"/>
+                        <TextView
+                            android:layout_below="@id/viewmobile"
+                            android:id="@+id/viewtype"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="12dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="Skill"/>
+
+                        <TextView
+                            android:layout_below="@id/viewtype"
+                            android:id="@+id/descriptionv"
+
+                            android:textStyle=""                   android:layout_width="match_parent"
+                            android:gravity="center"                   android:layout_height="wrap_content"
+                            android:textSize="12dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="Status"/>
+                    </RelativeLayout>
+
+
+                    <ImageView
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/viewruppes"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp" />
+
+                    <TextView
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:paddingRight="5dp"
+                        android:layout_marginRight="10dp"
+                        android:id="@+id/viewruppes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="price"
+                        android:textStyle="bold"/>
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/locationview"
+                    android:layout_width="60dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:src="@drawable/map" />
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:id="@+id/onli"
+                    android:layout_gravity="center"
+                    android:background="@drawable/reddot"/>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ProgressBar
+                        android:id="@+id/progressbarforrat"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_alignTop="@+id/pvalue"
+
+                        android:layout_marginTop="-21dp"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        android:src="@drawable/map" />
+
+
+                    <TextView
+
+                        android:id="@+id/pvalue"                       android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10%" android:layout_centerHorizontal="true" android:layout_centerVertical="true"/>
+
+
+                </RelativeLayout>
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
